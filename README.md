@@ -20,7 +20,7 @@ To run the Evil Wordle Scala Project, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jakerpppp/evil-wordle-scala.git
+git clone https://github.com/jakerpppp/Evil-Wordle.git
 
 # Navigate to the project folder
 cd evil-wordle-scala
