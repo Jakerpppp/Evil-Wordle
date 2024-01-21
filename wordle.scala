@@ -12,11 +12,11 @@ import scala.util._
 
 
 //(1)
-def get_wordle_list(url: String) : List[String] = {
-    Try(Source.fromURL(url)("ISO-8859-1").getLines().toList).getOrElse(Nil)
+def get_wordle_list(filePath: String): List[String] = {
+  Try(Source.fromFile(filePath)("ISO-8859-1").getLines().toList).getOrElse(Nil)
 }
 
-// val secrets = get_wordle_list("https://nms.kcl.ac.uk/christian.urban/wordle.txt")
+// val secrets = get_wordle_list("./words.txt")
 // secrets.length // => 12972
 // secrets.filter(_.length != 5) // => Nil
 
