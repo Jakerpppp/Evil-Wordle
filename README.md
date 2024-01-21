@@ -1,6 +1,7 @@
 # Evil Wordle Scala Project
 
 Welcome to the Evil Wordle Scala Project! 
+- Made in December 2023
 
 ## Overview
 
